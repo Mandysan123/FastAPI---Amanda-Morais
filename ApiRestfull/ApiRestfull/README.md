@@ -1,6 +1,6 @@
 # Task Management API 📝
 
-Este é um projeto simples **FastAPI** para gerenciar uma lista de tarefas. Ele fornece funcionalidades básicas de CRUD e capacidades de busca, tornando-o um ótimo ponto de partida para aprender FastAPI.
+Este é um projeto simples **FastAPI** para gerenciar uma lista de tarefas. Ele fornece funcionalidades básicas de CRUD, tornando-o um ótimo ponto de partida para aprender FastAPI.
 
 
 ## Funcionalidades ✨
