@@ -160,7 +160,7 @@ Aqui estão alguns comandos úteis para gerenciar seus ambientes Conda:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Mandysan123/FastAPI---Amanda-Morais.git
-   cd apirestfull
+   cd .\FastAPI---Amanda-Morais\apirestfull
    ```
 
 2. Instale as dependências:
