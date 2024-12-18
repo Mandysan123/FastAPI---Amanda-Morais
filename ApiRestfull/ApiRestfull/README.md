@@ -45,25 +45,10 @@ Recupera os detalhes de uma tarefa usando seu ID único.
 }
 ```
 
----
-
-### 3. **Buscar Tarefas pelo Título** 🔎
-**GET** `/tasks_search?title={title}`
-
-Busca por tarefas cujo título contenha a string de consulta fornecida (case-insensitive).
-
-**Resposta:**
-```json
-{
-  "status": "success",
-  "message": "Tasks retrieved successfully.",
-  "data": [...]
-}
-```
 
 ---
 
-### 4. **Adicionar uma Nova Tarefa** ➕
+### 3. **Adicionar uma Nova Tarefa** ➕
 **POST** `/tasks`
 
 **Request Body:**
@@ -91,7 +76,7 @@ Busca por tarefas cujo título contenha a string de consulta fornecida (case-ins
 
 ---
 
-### 5. **Atualizar uma Tarefa** ✏️
+### 4. **Atualizar uma Tarefa** ✏️
 **PUT** `/tasks/{task_id}`
 
 **Request Body:**
@@ -119,7 +104,7 @@ Busca por tarefas cujo título contenha a string de consulta fornecida (case-ins
 
 ---
 
-### 6. **Deletar uma Tarefa** ❌
+### 5. **Deletar uma Tarefa** ❌
 **DELETE** `/tasks/{task_id}`
 
 Deleta uma tarefa pelo seu ID.
@@ -174,8 +159,8 @@ Aqui estão alguns comandos úteis para gerenciar seus ambientes Conda:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Mandysan123/ApiRestful---Arquitetura-de-Sistemas.git
-   cd apirestful
+   git clone https://github.com/Mandysan123/FastAPI---Amanda-Morais.git
+   cd apirestfull
    ```
 
 2. Instale as dependências:
@@ -192,3 +177,5 @@ Aqui estão alguns comandos úteis para gerenciar seus ambientes Conda:
    - API Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) 📄
    - Redoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) 📚
 
+5. Link da Coleção no Postman
+   - https://abrir.link/TNqwA 🔗
